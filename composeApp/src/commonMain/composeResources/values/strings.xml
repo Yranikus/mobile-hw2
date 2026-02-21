@@ -1,0 +1,9 @@
+<resources>
+    <string name="preview_img_uri">https://www.helaba.com/media/img/ueber-uns/einblicke/dossier-sustainable-finance/gettyimages-1175434215.jpg</string>
+    <string name="preview_text">Приветсвие!</string>
+    <string name="logo_text">Aspen</string>
+    <string name="placeholder_email">your@email.com</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="email">Email</string>
+</resources>
