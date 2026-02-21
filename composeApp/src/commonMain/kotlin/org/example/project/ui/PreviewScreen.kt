@@ -24,6 +24,7 @@ import androidx.compose.ui.unit.sp
 import coil3.compose.AsyncImage
 import com.example.compose.*
 import mobile_hw2.composeapp.generated.resources.Res
+import mobile_hw2.composeapp.generated.resources.begin
 import mobile_hw2.composeapp.generated.resources.preview_img_uri
 import mobile_hw2.composeapp.generated.resources.preview_text
 import mobile_hw2.composeapp.generated.resources.zaglushka_2
@@ -68,7 +69,7 @@ fun PreviewScreen(onBeginButtonClicked: () -> Unit) {
                     modifier = Modifier.fillMaxWidth().padding(40.dp),
                     shape = RoundedCornerShape(10.dp),
                     onClick = onBeginButtonClicked) {
-                    Text("Начать")
+                    Text(stringResource(Res.string.begin))
                 }
             }
         }

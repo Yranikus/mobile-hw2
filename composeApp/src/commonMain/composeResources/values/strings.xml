@@ -6,4 +6,5 @@
     <string name="password">Password</string>
     <string name="login">LOGIN</string>
     <string name="email">Email</string>
+    <string name="begin">Начать</string>
 </resources>
